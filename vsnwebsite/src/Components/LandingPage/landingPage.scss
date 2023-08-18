@@ -1,0 +1,107 @@
+.gradient {
+    margin: 0px;
+    padding: 0px;
+    min-height: 100vh;
+    background-image: linear-gradient(to right, rgba(16, 60, 60, 255), rgba(84, 149, 148, 255));
+    overflow: hidden;
+
+
+    .up {
+        position: absolute;
+        left: 0;
+        top: 50;
+        height: 500px;
+        width: 500px;
+        border-radius: 30%;
+        background-image: linear-gradient(90deg, rgb(22, 21, 22), rgb(80, 145, 145));
+        filter: blur(80px);
+    }
+
+    .left {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 350px;
+        width: 750px;
+        border-radius: 10px 10px 10px 0px;
+        background-image: linear-gradient(90deg, rgba(22, 21, 22, 1) 0%, rgba(22, 21, 22, 1));
+        filter: blur(80px);
+    }
+
+    .right {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        height: 350px;
+        width: 750px;
+        border-radius: 10px 10px 0px 10px;
+        background-image: linear-gradient(90deg, rgb(22, 21, 22), rgb(229, 117, 60));
+        filter: blur(60px);
+
+    }
+}
+.nav-menu.nav-link{
+    color: white;
+    font-size: 14px;
+    font-style: popins regualr;
+}
+
+
+
+
+
+
+
+
+.container-main {
+    background-image: url("../../Assets/gradient.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 25px 50px 25px 50px;
+    height: auto;
+    width: 100%;
+    // background: blue($color: #000000);
+    // padding: 2px 0px;
+
+
+    
+}
+
+.mainNav {}
+
+.menu-item {}
+
+.navbar-nav {
+    display: flex !important;
+    justify-content: space-around !important;
+
+}
+
+.nav-menu {
+    color: rgb(24, 26, 26);
+    text-decoration: none;
+    padding: 2vh;
+
+
+}
+
+#responsive-navbar-nav {
+
+    flex-wrap: inherit;
+    align-items: center;
+
+}
+
+.nav-logo {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.nav-content {
+
+
+    display: flex;
+    justify-content: space-around;
+}
