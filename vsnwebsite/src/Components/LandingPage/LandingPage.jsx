@@ -4,10 +4,6 @@ import "./landingPage.scss"
 import NavComponent from './NavComponent';
 import homepage from '../../Assets/homepage.svg';
 
-
-
-
-
 export default function LandingPage() {
   return (
     <>
