@@ -19,8 +19,7 @@ export default function NavComponent() {
 
       >
         <Container className="responsive">
-          <Navbar.Toggle
-            className="responsive-navbar " />
+        
           <Navbar.Collapse id="responsive-navbar-nav" className="nav-content">
             <Nav className="menu-item">
               <Nav.Link
@@ -65,7 +64,7 @@ export default function NavComponent() {
             <Nav className="menu-item">
               <Nav.Link
                 className="nav-menu">
-                VSN CLOUD
+                VSN | CLOUD
               </Nav.Link>
               </Nav>
 
