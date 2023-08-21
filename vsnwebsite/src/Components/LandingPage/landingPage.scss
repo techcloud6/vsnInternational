@@ -59,18 +59,13 @@
     background-repeat: no-repeat;
     background-position: center;
     padding: 25px 50px 25px 50px;
-    height: auto;
+  
     width: 100%;
-    // background: blue($color: #000000);
-    // padding: 2px 0px;
+    
 
 
     
 }
-
-.mainNav {}
-
-.menu-item {}
 
 .navbar-nav {
     display: flex !important;
@@ -79,9 +74,10 @@
 }
 
 .nav-menu {
-    color: rgb(24, 26, 26);
+    color: rgb(255,255,255);
     text-decoration: none;
     padding: 2vh;
+    font-weight: 500;
 
 
 }
@@ -100,8 +96,52 @@
 }
 
 .nav-content {
-
-
     display: flex;
     justify-content: space-around;
+}
+.main-section{
+    text-align: right;
+
+    .main-head{
+        color:#fff;
+        font-family: sans-serif;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-size: 3em;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-width:0.7px ;
+        margin-top: 10px;
+        font-weight: 500;
+        word-wrap: break-word;
+    }
+    .main-para{
+        color:#fff;
+        font-family: sans-serif;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        font-size: 0.8em;
+        font-weight: 100;
+        
+       
+    }
+  
+    .new-table{
+        text-align: right;
+        color: #fff;
+        float: right;
+      
+      
+    }
+    .btn-white{
+        background-color: transparent;
+        border: 2px solid #fff;
+        color: #fff;
+        padding: 8px;
+        
+    }
+    .table-cont{
+        font-weight:50;
+        font-size: 10px;
+        margin-top: -10px;
+    }
 }
