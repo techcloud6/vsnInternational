@@ -58,7 +58,6 @@ export default function NavComponent() {
                 to='/contact'>
                 CONTACT
               </Nav.Link>
-
             </Nav>
 
             <Nav className="menu-item">
