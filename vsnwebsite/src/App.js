@@ -1,6 +1,5 @@
 import LandingPage from './Components/LandingPage/LandingPage';
-/* The following line can be included in a src/App.scss */
-/* The following line can be included in your src/index.js or App.js file */
+
 import './App.scss';
 import { BrowserRouter as Router, Routes, Route, BrowserRouter , Switch} from "react-router-dom";
 import OurClient from './Components/OurClient/OurClient';
@@ -15,7 +14,6 @@ function App() {
       <BrowserRouter>
       
       <Routes>
-      
       
       <Route exact path="/" element={<LandingPage />}/>
       <Route exact path="/OurClient" element={<OurClient />} />
