@@ -7,6 +7,7 @@ import OurPartners from './Components/OurPartners/OurPartners';
 import OurServices from './Components/OurServices/OurService'
 import Careers from './Components/Careers/Careers';
 import Contact from './Components/Contact/Contact';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -15,12 +16,15 @@ function App() {
       
       <Routes>
       
+
       <Route exact path="/" element={<LandingPage />}/>
       <Route exact path="/OurClient" element={<OurClient />} />
       <Route exact path="/OurPartners" element={<OurPartners /> } />
       <Route exact path="/OurServices" element={<OurServices /> } />
       <Route exact path="/Careers" element={<Careers /> } />
       <Route exact path="/Contact" element={<Contact /> } />
+
+     
       
 
       </Routes>
@@ -28,7 +32,7 @@ function App() {
     
   </BrowserRouter>
     
-      
+  <Footer />
 
     </>
   );

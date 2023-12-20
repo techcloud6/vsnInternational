@@ -20,50 +20,62 @@ export default function NavComponent() {
       >
         <Container className="responsive">
         
-          <Navbar.Collapse id="responsive-navbar-nav" className="nav-content">
+          <Navbar.Collapse id="responsive-navbar-nav " className="nav-content">
+          <div id='navs'>
             <Nav className="menu-item">
               <Nav.Link
                 className="nav-menu"
                 as={Link}
-                to='/'>
+                to='/'
+                style={{ marginRight: '57px' }} >
                 ABOUT
               </Nav.Link>
               <Nav.Link
                 className="nav-menu"
                 as={Link}
-                to='/OurServices'>
+                to='/OurServices'
+                style={{ marginRight: '57px' }} >
                 SERVICE
               </Nav.Link>
               <Nav.Link
                 className="nav-menu"
                 as={Link}
-                to='/OurPartners'>
+                to='/OurPartners'
+                style={{ marginRight: '57px' }} >
                 PARTNERS
               </Nav.Link>
               <Nav.Link
                 className="nav-menu"
                 as={Link}
-                to='/OurClient'>
+                to='/OurClient'
+                style={{ marginRight: '57px' }} >
                 CLIENTS
               </Nav.Link>
               <Nav.Link
                 className="nav-menu"
                 as={Link}
-                to='/Careers'>
+                to='/Careers' 
+                style={{ marginRight: '57px' }} >
                 CAREERS
               </Nav.Link>
               <Nav.Link
                 className="nav-menu"
                 as={Link}
-                to='/contact'>
+                to='/contact'
+                style={{ marginRight: '57px' }} >
                 CONTACT
               </Nav.Link>
             </Nav>
 
+
+            </div>
+
             <Nav className="menu-item">
               <Nav.Link
-                className="nav-menu">
+                className="nav-menu nsbar">
+                <h3>
                 VSN | CLOUD
+                </h3>
               </Nav.Link>
               </Nav>
 
